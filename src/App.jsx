@@ -48,7 +48,8 @@ function App() {
       <div>
         {contacts.length === 0 ? (
           <div className="addContact">
-            Please, add some contact to the phonebook!
+            <p>Your phonebook is empty.</p>
+            <p>Please add your first contact to the phonebook!</p>
           </div>
         ) : (
           <ul>
